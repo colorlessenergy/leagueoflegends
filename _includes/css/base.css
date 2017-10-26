@@ -1,3 +1,9 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  margin: 0;
+}
+
 a {
   color: #fff;
 }
@@ -8,15 +14,15 @@ a div {
 
 .bar1, .bar2, .bar3 {
   background-color: #689dae;
-  height: 2px;
+  height: 4px;
   margin: 3px 0;
   transition: 0.4s;
-  width: 30px;
+  width: 27px;
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-3px, 2px) ;
+  transform: rotate(-45deg) translate(-3px, 2px);
 }
 
 .change .bar2 {
