@@ -1,0 +1,58 @@
+.main-content h2 {
+  color: #5c5959;
+  font-size: 28px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  line-height: 30px;
+  margin: 30px 0;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-content a div {
+  align-items: center;
+  background-position: 90% 63%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-size: 25px;
+  height: 380px;
+  justify-content: center;
+  transform: translate3d(0, 50%, 0);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.main-content a:nth-child(1) div {
+  transition-delay: .15s;
+}
+
+.main-content a:nth-child(2) div {
+  transition-delay: .3s;
+}
+
+.main-content a div.appearUp {
+  transform: translate3d(0, 0, 0);
+  opacity: 0.9;
+}
+
+.main-content .thumb a div:hover {
+  opacity: 1;
+}
+
+.main-content .thumb {
+  background-color: #000;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 961px) {
+  .main-content .thumb {
+    display: flex;
+    max-width: 1300px;
+  }
+
+  .main-content .thumb a  {
+    width: 50%;
+  }
+}

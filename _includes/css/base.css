@@ -6,10 +6,7 @@ html, body {
 
 a {
   color: #fff;
-}
-
-a div {
-  height: 100px;
+  text-decoration: none;
 }
 
 .bar1, .bar2, .bar3 {

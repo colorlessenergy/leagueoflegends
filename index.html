@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section>
+<section class="main-content">
   <h2>All Websites</h2>
-  <div>
+  <div class="thumb">
     {% for champs in site.data.champions %}
       <a href="{{ champs.link }}">
         <div style="background-image: url({{ champs.image }})">
