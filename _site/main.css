@@ -34,6 +34,48 @@ a div {
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
+header {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/chess.jpg);
+  background-position: 49% 33%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header section {
+  display: flex;
+  color: #fff;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header section div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+header section div h1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+header section div h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+header section div p {
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  max-width: 455px;
+}
+
 header nav .container-menu {
   cursor: pointer;
   margin: 15px 15px 0 0;
@@ -90,6 +132,7 @@ header nav ul li:hover a {
 }
 
 header nav .hidden {
+  visibility: hidden;
   opacity: 0;
 }
 
