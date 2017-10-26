@@ -2,4 +2,55 @@
 layout: default
 ---
 
-<p>hi</p>
+<section>
+  <h2>All Websites</h2>
+  <div>
+    {% for champs in site.data.champions %}
+      <a href="{{ champs.link }}">
+        <div style="background-image: url({{ champs.image }})">
+          {{ champs.title }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div>
+    <h3>My Capabilities</h3>
+    <p><a href="https://github.com/colorlessenergy">Explore my work</a></p>
+  </div>
+  <div>
+    <h3>My Portfolio</h3>
+    <p><a href="http://colorlessenergy.github.io/">All my work!</a></p>
+  </div>
+</section>
+<section>
+  <h2>Developer Recognition</h2>
+  <p>The founder of League of legends...</p>
+  <a href="https://www.riotgames.com/">
+    <img src="{{ site.baseurl }}images/riot-logo.png" alt="riot logo">
+  </a>
+</section>
+<section>
+  <img src="{{ site.baseurl }}images/pink-flower.jpg" alt="a pink flower">
+  <div>
+    <h3>Developed in Long Beach, CA</h3>
+    <p>Hard work and dedication brings the best websites!</p>
+  </div>
+</section>
+<section>
+  <h2>I am available for hire!</h2>
+  <p>I hold a passion for developing website that work everywhere!</p>
+</section>
+<section>
+  <div>
+    <img src="images/idea.png" alt="light bulb to symbolize idea">
+    <h3>New Business</h3>
+    <p>theluckorange@yahoo.com</p>
+  </div>
+  <div>
+    <img src="images/brush.svg" alt="a paint brush to show team work">
+    <h3>Work With me!</h3>
+    <p>theluckorange@yahoo.com</p>
+  </div>
+</section>
