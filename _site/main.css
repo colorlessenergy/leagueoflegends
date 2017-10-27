@@ -75,7 +75,7 @@ header section div p, .work-info p {
 
 header nav .container-menu {
   cursor: pointer;
-  margin: 15px 15px 0 0;
+  margin: 20px 20px 0 0;
   position: fixed;
   right: 0;
   top: 0;
@@ -139,7 +139,7 @@ header nav .animateY {
   opacity: 0;
 }
 
-.main-content h2, .recognition-dev h2, .contact-head h2 {
+.main-content h2, .recognition-dev h2, .contact-head h2, footer div h2 {
   color: #5c5959;
   font-size: 28px;
   font-weight: 100;
@@ -315,7 +315,7 @@ header nav .animateY {
   padding: 80px 15px;
 }
 
-.contact-foot div p, .contact-foot div h3 {
+.contact-foot div p, .contact-foot div h3, footer div p {
   font-weight: 100;
   margin: 0;
   padding-bottom: 15px;
@@ -348,6 +348,64 @@ header nav .animateY {
 
   .contact-foot div {
     width: 50%;
+  }
+}
+
+footer {
+  background-color: #031e32;
+  color: #fff;
+}
+
+footer div {
+  margin-left: 45px;
+}
+
+footer div h2 {
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+footer div a img {
+  width: 50px;
+}
+
+footer div p.link, footer div ul li a {
+  color: #27d9d9;
+}
+
+footer div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer p.copy {
+  font-size: 14px;
+  padding: 25px 0;
+}
+
+@media screen and (min-width: 961px) {
+
+  footer aside {
+    height: 400px;
+  }
+
+  footer aside {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer aside .foot-nav {
+    margin-top: 50px;
+    text-align: right;
+  }
+
+  footer .copy {
+    text-align: center;
   }
 }
 

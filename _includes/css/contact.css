@@ -19,7 +19,7 @@
   padding: 80px 15px;
 }
 
-.contact-foot div p, .contact-foot div h3 {
+.contact-foot div p, .contact-foot div h3, footer div p {
   font-weight: 100;
   margin: 0;
   padding-bottom: 15px;
