@@ -33,7 +33,7 @@ header section div h3 {
   margin: 0;
 }
 
-header section div p {
+header section div p, .work-info p {
   font-size: 17px;
   line-height: 25px;
   text-align: center;

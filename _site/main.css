@@ -66,7 +66,7 @@ header section div h3 {
   margin: 0;
 }
 
-header section div p {
+header section div p, .work-info p {
   font-size: 17px;
   line-height: 25px;
   text-align: center;
@@ -139,7 +139,7 @@ header nav .animateY {
   opacity: 0;
 }
 
-.main-content h2 {
+.main-content h2, .recognition-dev h2, work-info h2 {
   color: #5c5959;
   font-size: 28px;
   font-weight: 100;
@@ -187,6 +187,24 @@ header nav .animateY {
   margin-bottom: 50px;
 }
 
+.recognition-dev {
+  height: 400px;
+  text-align: center;
+}
+
+.recognition-dev h2 {
+  margin-bottom: 0;
+}
+
+.recognition-dev p {
+  color: #5c5959;
+  margin-top: 0;
+}
+
+.recognition-dev img {
+  width: 150px;
+}
+
 @media screen and (min-width: 961px) {
   .main-content .thumb {
     display: flex;
@@ -195,6 +213,79 @@ header nav .animateY {
 
   .main-content .thumb a  {
     width: 50%;
+  }
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+}
+
+.more-info div {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+.more-info div a {
+  border: 3px solid #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: border 1s ease;
+}
+
+.more-info div a:hover {
+  border: 3px solid cyan;
+}
+
+.more-info div h3 {
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.more-info div:nth-child(1) {
+  background-color: rgb(3, 30, 50);
+}
+
+.more-info div:nth-child(2) {
+  background-color: rgb(5, 39, 65);
+}
+
+.work-info {
+  align-items: center;
+  background-color: rgb(3, 30, 50);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  text-align: center;
+}
+
+.work-info img {
+  margin: 0 30px;
+  width: 330px;
+}
+
+.work-info h3 {
+  font-size: 17px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 961px) {
+  .more-info {
+    flex-direction: row;
+  }
+
+  .work-info {
+    flex-direction: row;
   }
 }
 

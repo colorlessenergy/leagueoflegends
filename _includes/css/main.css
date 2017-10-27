@@ -1,4 +1,4 @@
-.main-content h2 {
+.main-content h2, .recognition-dev h2, work-info h2 {
   color: #5c5959;
   font-size: 28px;
   font-weight: 100;
@@ -44,6 +44,24 @@
 .main-content .thumb {
   background-color: #000;
   margin-bottom: 50px;
+}
+
+.recognition-dev {
+  height: 400px;
+  text-align: center;
+}
+
+.recognition-dev h2 {
+  margin-bottom: 0;
+}
+
+.recognition-dev p {
+  color: #5c5959;
+  margin-top: 0;
+}
+
+.recognition-dev img {
+  width: 150px;
 }
 
 @media screen and (min-width: 961px) {
