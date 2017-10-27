@@ -25,7 +25,7 @@
   border: 3px solid cyan;
 }
 
-.more-info div h3 {
+.more-info div h3, .contact-foot h3 {
   letter-spacing: 2px;
   line-height: 1;
   text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 .work-info img {
   margin: 0 30px;
-  width: 330px;
+  width: 50%;
 }
 
 .work-info h3 {
@@ -68,5 +68,9 @@
 
   .work-info {
     flex-direction: row;
+  }
+
+  .work-info img {
+    width: 30%;
   }
 }

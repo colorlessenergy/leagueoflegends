@@ -1,0 +1,56 @@
+.contact-head {
+  padding: 30px 0;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.contact-head h2 {
+  margin: 0 0 20px 0;
+  padding-bottom: 0;
+}
+
+.contact-foot {
+  text-align: center;
+}
+
+.contact-foot div {
+  font-weight: 100;
+  color: #fff;
+  padding: 80px 15px;
+}
+
+.contact-foot div p, .contact-foot div h3 {
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.contact-foot div p {
+  color: #27d9d9;
+}
+
+.contact-foot div h3 {
+  margin-top: 20px;
+}
+
+.contact-foot img {
+  width: 30%;
+}
+
+.contact-foot div:nth-child(1) {
+  background-color: rgb(3, 30, 50);
+}
+
+.contact-foot div:nth-child(2) {
+  background-color: rgb(5, 39, 65);
+}
+
+@media screen and (min-width: 961px) {
+  .contact-foot {
+    display: flex;
+  }
+
+  .contact-foot div {
+    width: 50%;
+  }
+}
